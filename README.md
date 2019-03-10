@@ -25,5 +25,7 @@ To get started using the model network, extract the .m files from the simulation
       
       Outputs:
       r -> Firing rate variables for each unit
+      
       D -> Synaptic depression variables for each unit
+      
       s -> Synaptic output variables for each unit
