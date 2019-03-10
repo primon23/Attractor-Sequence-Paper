@@ -12,9 +12,12 @@ To get started using the model network, extract the .m files from the simulation
   
       Inputs:
       p -> parameter structure returned by make_params()
+      
       Iapp -> Matrix of input currents returned by make_Iapp()
+      
       init_type -> can be 'silent', 'random', or 'constant'. Determines how the initial state of the network (before the
       sequence of stimuli) is initialized
+      
       memoptimize -> If 'yes', then the returned variable r will be a (Ngroups x nTimesteps) matrix with a value of firing rate
       for each unit for each timestep. D and s however will only be 1D vectors giving the value of D and s (for each unit) on
       the last timestep. This option saves memory and can speed up the simulation. If 'no', all 3 output variables will be
