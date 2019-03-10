@@ -4,7 +4,9 @@ To get started using the model network, extract the .m files from the simulation
   This will return a parameter structure (p) that uses the default ('fiducial') parameter set used in the paper
   
   2. Iapp = make_Iapp(p,seq)  
-  This will return a matrix (Iapp) that has one row for each unit in the network (and ntimesteps columns). p is the parameter     structure returned by make_params() and seq is a vector of integers, each specifying the ID of one of the stimuli. Note that   if length(seq) does not equal p.sequence_length, then not all of the stimuli in seq will be represented in Iapp.
+  This will return a matrix (Iapp) that has one row for each unit in the network (and ntimesteps columns). p is the parameter 
+  structure returned by make_params() and seq is a vector of integers, each specifying the ID of one of the stimuli. Note that
+  if length(seq) does not equal p.sequence_length, then not all of the stimuli in seq will be represented in Iapp.
   
   3. [r,D,s] = run_network(p,Iapp,init_type,memoptimize)
       Inputs:
