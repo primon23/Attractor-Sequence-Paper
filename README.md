@@ -9,6 +9,7 @@ To get started using the model network, extract the .m files from the simulation
   if length(seq) does not equal p.sequence_length, then not all of the stimuli in seq will be represented in Iapp.
   
   3. [r,D,s] = run_network(p,Iapp,init_type,memoptimize)
+  
       Inputs:
       p -> parameter structure returned by make_params()
       Iapp -> Matrix of input currents returned by make_Iapp()
