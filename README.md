@@ -24,6 +24,7 @@ To get started using the model network, extract the .m files from the simulation
       (Ngroups x nTimesteps) matrices with one value of each dynamical variable per unit per timestep
       
       Outputs:
+      
       r -> Firing rate variables for each unit
       
       D -> Synaptic depression variables for each unit
